@@ -5,6 +5,7 @@ const NAV_ITEMS = [
   { href: "/dashboard/inbox", label: "Randevu Talepleri" },
   { href: "/dashboard/paketler", label: "Menü / Paketler" },
   { href: "/dashboard/etkinlikler", label: "Etkinlikler & QR" },
+  { href: "/dashboard/icerik", label: "Site İçeriği" },
 ];
 
 export default function DashboardLayout({
