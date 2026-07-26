@@ -1,0 +1,12 @@
+{
+  "name": "yildiz-bahcesi",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:admin": "npm run dev --workspace=admin",
+    "dev:mobile": "npm run start --workspace=mobile"
+  }
+}
